@@ -89,14 +89,13 @@
       </div>
       <div class="life-album-copy">
         <span class="caption-tag">Life Records</span>
-        <h3>Piano</h3>
-        <h3>Photography</h3>
+        <h3>Piano & Photography</h3>
         <span class="life-album-toggle">Expand / Collapse Album</span>
       </div>
     </summary>
     <div class="life-album-panel">
       <figure>
-        <img src="/images/gallery/钢琴.png" alt="Piano" loading="lazy">
+        <img src="/images/gallery/钢琴.jpg" alt="Piano" loading="lazy">
         <figcaption>Piano</figcaption>
       </figure>
       <figure>
@@ -110,16 +109,21 @@
     <summary class="life-album-summary">
       <div class="life-album-preview">
         <img src="/images/gallery/篮球.jpg" alt="Basketball" loading="lazy">
+        <img src="/images/gallery/跑步.jpg" alt="Running" loading="lazy">
       </div>
       <div class="life-album-copy">
         <span class="caption-tag">Sports & Hobbies</span>
-        <h3>Basketball</h3>
+        <h3>Basketball & Running</h3>
         <span class="life-album-toggle">Expand / Collapse Album</span>
       </div>
     </summary>
     <div class="life-album-panel">
       <figure>
         <img src="/images/gallery/篮球.jpg" alt="Basketball" loading="lazy">
+        <figcaption>Basketball</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/gallery/跑步.jpg" alt="Running" loading="lazy">
         <figcaption>Basketball</figcaption>
       </figure>
     </div>
@@ -145,7 +149,7 @@
     <p>Public Governance · Social Understanding</p>
   </div>
   <div class="general-course-card">
-    <span class="course-score">90</span>
+    <span class="course-score">95</span>
     <h3>Physical Education (Beginner Football)</h3>
     <p>Exercise Habits · Physical and Mental Balance</p>
   </div>

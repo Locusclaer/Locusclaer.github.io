@@ -89,14 +89,13 @@
       </div>
       <div class="life-album-copy">
         <span class="caption-tag">生活记录</span>
-        <h3>钢琴</h3>
-        <h3>摄影</h3>
+        <h3>钢琴、摄影</h3>
         <span class="life-album-toggle">展开 / 收起相册</span>
       </div>
     </summary>
     <div class="life-album-panel">
       <figure>
-        <img src="/images/gallery/钢琴.png" alt="钢琴" loading="lazy">
+        <img src="/images/gallery/钢琴.jpg" alt="钢琴" loading="lazy">
         <figcaption>钢琴</figcaption>
       </figure>
       <figure>
@@ -110,10 +109,11 @@
     <summary class="life-album-summary">
       <div class="life-album-preview">
         <img src="/images/gallery/篮球.jpg" alt="篮球" loading="lazy">
+        <img src="/images/gallery/跑步.jpg" alt="跑步" loading="lazy">
       </div>
       <div class="life-album-copy">
         <span class="caption-tag">运动爱好</span>
-        <h3>篮球</h3>
+        <h3>篮球、跑步</h3>
         <span class="life-album-toggle">展开 / 收起相册</span>
       </div>
     </summary>
@@ -121,6 +121,10 @@
       <figure>
         <img src="/images/gallery/篮球.jpg" alt="篮球" loading="lazy">
         <figcaption>篮球</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/gallery/跑步.jpg" alt="跑步" loading="lazy">
+        <figcaption>跑步</figcaption>
       </figure>
     </div>
   </details>
@@ -145,7 +149,7 @@
     <p>公共治理 · 社会理解</p>
   </div>
   <div class="general-course-card">
-    <span class="course-score">90</span>
+    <span class="course-score">95</span>
     <h3>体育（初级足球）</h3>
     <p>运动习惯 · 身心平衡</p>
   </div>

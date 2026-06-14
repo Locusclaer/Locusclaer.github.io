@@ -2,7 +2,7 @@
   <section class="home-section" id="welcome">
     <h2 class="home-section__title">👋 Welcome!</h2>
     <div class="home-section__body">
-      <p>This is Yihang Zhai's personal homepage.</p>
+      <p>Hello, and welcome to my personal homepage! I am Yihang Zhai, an undergraduate student with a strong interest in medical image analysis, computer vision, and deep learning. My current research interests focus on medical image segmentation, diffusion models, and attention mechanisms, especially their applications in real-world medical imaging tasks. This website records my academic journey, research exploration, project experience, and some moments from my daily life. I hope it can serve not only as a place to present my work, but also as a space for continuous learning, reflection, and growth.</p>
     </div>
     <div class="about-actions">
       <a href="/files/resume.pdf" class="about-btn" target="_blank" rel="noopener">Resume</a>
@@ -126,7 +126,7 @@
       </div>
       <div class="competition-item">
         <div class="competition-item__main">National 2nd Prize, "Lanqiao Cup" Digital Technology Application Innovation Competition</div>
-        <div class="competition-item__date">2026</div>
+        <div class="competition-item__date">2026.05</div>
       </div>
       <div class="competition-item">
         <div class="competition-item__main">Rank 3, China Collegiate Programming Contest (CCPC) Campus Team Qualifier</div>

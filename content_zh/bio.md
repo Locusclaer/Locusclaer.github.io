@@ -2,7 +2,7 @@
   <section class="home-section" id="welcome">
     <h2 class="home-section__title">👋 欢迎！</h2>
     <div class="home-section__body">
-      <p>这里是翟一航的个人主页。</p>
+      <p>你好，欢迎来到我的个人主页！我是翟一航，目前主要关注医学图像处理、计算机视觉、深度学习与多模态AR相关方向，尤其对医学影像分割、扩散模型、注意力机制以及多模态AI在实际任务中的应用感兴趣。在这里，我会记录自己的学习经历、科研探索、项目实践和一些生活片段。希望这个主页不仅能展示我的成长轨迹，也能成为我持续整理思考、分享收获的空间。</p>
     </div>
     <div class="about-actions">
       <a href="/files/resume.pdf" class="about-btn" target="_blank" rel="noopener">个人简历</a>
@@ -126,7 +126,7 @@
       </div>
       <div class="competition-item">
         <div class="competition-item__main">全国二等奖  “蓝桥杯”数字科技应用创新赛</div>
-        <div class="competition-item__date">2026</div>
+        <div class="competition-item__date">2026.05</div>
       </div>
       <div class="competition-item">
         <div class="competition-item__main">rk3 中国大学生程序设计竞赛（CCPC）校内队伍预选赛</div>
