@@ -1,8 +1,8 @@
-# Shan Yanzhe Homepage
+# Zhai Yihang Homepage
 
 [中文](README_cn.md)
 
-This repository contains the source code for Shan Yanzhe's personal academic homepage.
+This repository contains the source code for Zhai Yihang's personal academic homepage.
 
 ## Tech Stack
 

@@ -1,350 +1,431 @@
 <div class="research-page">
   <section class="home-section">
-    <h2 class="home-section__title">Overlapping Timeline</h2>
+    <h2 class="home-section__title">Timeline</h2>
     <div class="timeline-lanes">
-  <div class="timeline-months">
-    <span></span>
-    <span>2025.04</span>
-    <span>2025.09</span>
-    <span>2025.10</span>
-    <span>2025.11</span>
-    <span>2025.12</span>
-    <span>2026.01</span>
-    <span>2026.02</span>
-    <span>2026.03</span>
-    <span>2026.04-05</span>
-  </div>
-  <div class="timeline-lane">
-    <strong>OUC · Yong Du</strong>
-    <div class="lane-bar bar-ouc-3dgs"><span class="lane-date">2025.04 - 2025.09</span><span>3DGS entry and paper reproduction</span></div>
-  </div>
-  <div class="timeline-lane">
-    <strong>OUC · Feng Gao</strong>
-    <div class="lane-bar bar-ouc-camp"><span class="lane-date">2025.09</span><span>Chunya Training Camp · Deep learning basics</span></div>
-  </div>
-  <div class="timeline-lane">
-    <strong>PKU · Wentao Zhang</strong>
-    <div class="lane-bar bar-pku"><span class="lane-date">2025.10 - Present</span><span>OpenDCAI / AgentFlow: benchmark construction → automatic data synthesis → agent post-training</span></div>
-  </div>
-  <div class="timeline-lane">
-    <strong>Tsinghua · TLLM</strong>
-    <div class="lane-bar bar-tsinghua"><span class="lane-date">2026.01 - 2026.03</span><span>Industrial LLMs · wafer defect detection · continual learning</span></div>
-  </div>
-  <div class="timeline-lane">
-    <strong>HITSZ · Yangyang Xu</strong>
-    <div class="lane-bar bar-hitsz"><span class="lane-date">2026.03 - 2026.05</span><span>Physics video generation · MotionRAG · physics alignment</span></div>
-  </div>
+      <div class="timeline-months">
+        <span></span>
+        <span>2024.02</span>
+        <span>2024.10</span>
+        <span>2025.10</span>
+        <span>2025.11</span>
+        <span>2026.01</span>
+        <span>2026.03</span>
+        <span>2026.04-05</span>
+      </div>
+      <div class="timeline-lane">
+        <strong>OUC Computer Vision Lab</strong>
+        <div class="lane-bar bar-ouc-cv">
+          <span class="lane-date">2024.02 - 2024.10</span>
+          <span>Self-Supervised Ultrasound Image Denoising Guided by CLIP Prior + Mamba</span>
+        </div>
+      </div>
+      <div class="timeline-lane">
+        <strong>OUC 3D Vision Group</strong>
+        <div class="lane-bar bar-ouc-3d">
+          <span class="lane-date">2025.10 - 2026.03</span>
+          <span>UNIFI-AR: Multimodal AI-Fused Augmented Reality Display System</span>
+        </div>
+      </div>
+      <div class="timeline-lane">
+        <strong>OUC Computational Biology Lab</strong>
+        <div class="lane-bar bar-ouc-cb">
+          <span class="lane-date">2025.11 - Present</span>
+          <span>Automatic Annotation and Intelligent Diagnosis of Echocardiography Images</span>
+        </div>
+      </div>
+      <div class="timeline-lane">
+        <strong>OUC Computer Network Lab</strong>
+        <div class="lane-bar bar-ouc-net">
+          <span class="lane-date">2025.11 - 2026.01</span>
+          <span>Underlying Development and Visual Analysis of TCP Protocol Stack</span>
+        </div>
+      </div>
+      <div class="timeline-lane">
+        <strong>BUAA School of Cyberspace Security</strong>
+        <div class="lane-bar bar-buaa">
+          <span class="lane-date">2026.04 - 2026.05</span>
+          <span>Multimodal LLM Fine-Tuning and Agent Memory Research & Reproduction</span>
+        </div>
+      </div>
+      <div class="timeline-lane">
+        <strong>Independent Project</strong>
+        <div class="lane-bar bar-independent">
+          <span class="lane-date">Ongoing</span>
+          <span>MiniMind Reproduction and LLM Engineering Practice</span>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="home-section">
-    <h2 class="home-section__title">Detailed Experience</h2>
+    <h2 class="home-section__title">Detailed Research & Project Experience</h2>
     <div class="research-details">
-  <details class="research-card">
-    <summary>
-      <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Ocean University of China logo" loading="lazy">
-      <div>
-        <span class="research-label">OUC · 3D Reconstruction</span>
-        <h3>Yong Du: Getting Started with 3D Gaussian Splatting</h3>
-      </div>
-      <span class="research-period">2025.04 - 2025.09</span>
-    </summary>
-    <div class="research-body">
-      <div class="detail-timeline">
-        <article class="detail-step">
-          <time>2025.04.16</time>
+      <details class="research-card" open>
+        <summary>
+          <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" loading="lazy" />
           <div>
-            <h4>Entered research through 3DGS reproduction</h4>
-            <p>Under Yong Du's guidance, I began with 3D Gaussian Splatting paper reading and code reproduction, focusing on problem formulation, rendering pipeline, method assumptions, and code organization rather than only surface-level conclusions.</p>
-            <div class="gain-tags">
-              <span>Research Entry✅️</span>
-              <span>3DGS✅️</span>
-              <span>Paper Reading✅️</span>
-            </div>
+            <span class="research-label">OUC · Computational Biology / Medical Image Segmentation</span>
+            <h3>Prof. Shugang Zhang: Automatic Annotation and Intelligent Diagnosis of Echocardiography Images</h3>
           </div>
-        </article>
-        <article class="detail-step">
-          <time>2025.04.16 - 2025.04.23</time>
+          <span class="research-period">2025.11 - Present</span>
+        </summary>
+        <div class="research-body">
+          <div class="detail-timeline">
+            <article class="detail-step">
+              <time>2025.11 - Present</time>
+              <div>
+                <h4>Automated Segmentation Research for Complex Echocardiography Scenarios</h4>
+                <p>Conducted research on automated segmentation of echocardiography images at the OUC Computational Biology Lab. Focused on addressing issues such as significant multi-view differences, strong speckle noise, difficulty in recognizing low-contrast regions, and blurred boundaries of anatomical structures like the myocardium, exploring precise annotation methods for key structures such as the atrium, ventricle, and myocardium.</p>
+                <div class="gain-tags">
+                  <span>Echocardiography✅️</span>
+                  <span>Medical Image Segmentation✅️</span>
+                  <span>Complex Anatomical Structures✅️</span>
+                  <span>Blurred Boundary Modeling⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Engineering</time>
+              <div>
+                <h4>Building a Multi-GPU End-to-End Deep Learning Pipeline</h4>
+                <p>Independently built an end-to-end training and evaluation pipeline in a multi-GPU RTX 4090 environment, covering standard ultrasound image preprocessing, data augmentation, model training, validation evaluation, and results visualization, forming a complete closed loop from data input to experimental conclusion output.</p>
+                <div class="gain-tags">
+                  <span>RTX 4090✅️</span>
+                  <span>Multi-GPU Training✅️</span>
+                  <span>Data Augmentation✅️</span>
+                  <span>Result Visualization✅️</span>
+                  <span>Experimental Closed-Loop✅️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Model Design</time>
+              <div>
+                <h4>Designing Boundary-Prediction Branch to Enhance Boundary Perception</h4>
+                <p>Based on the Denoising Diffusion Probabilistic Model (DDPM) and Spatial Attention mechanisms, designed a Boundary-Prediction Branch. By explicitly predicting the boundary information of target regions, it guides the diffusion denoising branch to more accurately restore the segmentation results of complex anatomical structures, thereby improving segmentation quality in low-contrast and blurred boundary regions.</p>
+                <div class="gain-tags">
+                  <span>DDPM✅️</span>
+                  <span>Spatial Attention✅️</span>
+                  <span>Boundary Branch✅️</span>
+                  <span>Structural Prior⬆️</span>
+                  <span>Boundary-Aware Seg⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Outcomes</time>
+              <div>
+                <h4>Dual Validation on Public Datasets and Real Clinical Data</h4>
+                <p>The model completed validation on the CAMUS public echocardiography dataset and further tested its generalization capability on real clinical ultrasound data from a partner hospital. Currently, the related research results are being organized, with plans to submit to MICCAI as the first author.</p>
+                <div class="gain-tags">
+                  <span>CAMUS✅️</span>
+                  <span>Clinical Data Validation✅️</span>
+                  <span>Generalization Ability⬆️</span>
+                  <span>1st Author Paper in Prep⬆️</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </details>
+      <details class="research-card">
+        <summary>
+          <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" loading="lazy" />
           <div>
-            <h4>Connected paper, code, environment, and experiments</h4>
-            <p>After configuring dependencies, tracing code entry points, and running the initial pipeline, I learned that reproduction is not just understanding a method; it requires a verifiable loop from implementation details to experimental results.</p>
-            <div class="gain-tags">
-              <span>Environment Setup✅️</span>
-              <span>Code Reproduction✅️</span>
-              <span>Dependency Debugging✅️</span>
-              <span>Engineering Chain✅️</span>
-            </div>
+            <span class="research-label">OUC · Computer Vision / Ultrasound Image Denoising</span>
+            <h3>Computer Vision Lab: Self-Supervised Ultrasound Image Denoising Guided by Prior Information</h3>
           </div>
-        </article>
-      </div>
-    </div>
-  </details>
-
-  <details class="research-card">
-    <summary>
-      <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Ocean University of China logo" loading="lazy">
-      <div>
-        <span class="research-label">OUC · Deep Learning Training</span>
-        <h3>Feng Gao: Chunya Training Camp</h3>
-      </div>
-      <span class="research-period">2025.09</span>
-    </summary>
-    <div class="research-body">
-      <div class="detail-timeline">
-        <article class="detail-step">
-          <time>2025.09.09</time>
+          <span class="research-period">2024.02 - 2024.10</span>
+        </summary>
+        <div class="research-body">
+          <div class="detail-timeline">
+            <article class="detail-step">
+              <time>2024.02 - 2024.10</time>
+              <div>
+                <h4>Design of Self-Supervised Denoising Method for Medium-to-High Noise Ultrasound Images</h4>
+                <p>Conducted research on self-supervised ultrasound image denoising tasks, focusing on solving problems like structural detail loss and poor tissue edge preservation under medium-to-high noise conditions. Proposed a denoising method integrating CLIP prior guidance and Mamba state space modeling.</p>
+                <div class="gain-tags">
+                  <span>Ultrasound Denoising✅️</span>
+                  <span>Self-Supervised Learning✅️</span>
+                  <span>Detail Preservation⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Prior Guidance</time>
+              <div>
+                <h4>Designing Prompt Text Learning Module Based on Image-Text Constraints</h4>
+                <p>Leveraged the image-text alignment capabilities of pre-trained CLIP to construct positive and negative samples of ultrasound images according to their noise levels. Learned noise-related prompt representations through image-text similarity and cross-entropy constraints, enabling the model to obtain auxiliary information on noise levels and image quality from text priors.</p>
+                <div class="gain-tags">
+                  <span>CLIP✅️</span>
+                  <span>Prompt Learning✅️</span>
+                  <span>Image-Text Similarity✅️</span>
+                  <span>Cross-Entropy Constraint✅️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Network Arch</time>
+              <div>
+                <h4>Constructing U-Net + Mamba Enhanced Denoising Network</h4>
+                <p>Introduced the Mamba module based on a U-Net architecture to enhance the model's capacity for long-range dependency and local structure modeling. Jointly optimized using prompt text refinement, edge ranking loss, structural similarity loss, perceptual loss, and edge preservation loss.</p>
+                <div class="gain-tags">
+                  <span>U-Net✅️</span>
+                  <span>Mamba✅️</span>
+                  <span>Joint Loss✅️</span>
+                  <span>Edge Preservation✅️</span>
+                  <span>Long-Range Modeling⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Outcomes</time>
+              <div>
+                <h4>Public Dataset Validation and National Invention Patent Acceptance</h4>
+                <p>Completed experimental validation under medium-to-high noise conditions on the CAMUS and BUSI datasets, achieving an average PSNR improvement of 1.8 dB and SSIM improvement of 2.7%. The core methodology has been submitted and accepted for a National Invention Patent application as the first inventor.</p>
+                <div class="gain-tags">
+                  <span>CAMUS✅️</span>
+                  <span>BUSI✅️</span>
+                  <span>PSNR +1.8 dB✅️</span>
+                  <span>SSIM +2.7%✅️</span>
+                  <span>Invention Patent Accepted✅️</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </details>
+      <details class="research-card">
+        <summary>
+          <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" loading="lazy" />
           <div>
-            <h4>Built foundations in deep learning and evaluation</h4>
-            <p>The Chunya Training Camp helped me consolidate neural networks, model training, experimental evaluation, and basic engineering practice, turning early reproduction experience into a more systematic AI research foundation.</p>
-            <div class="gain-tags">
-              <span>Deep Learning✅️</span>
-              <span>Model Training✅️</span>
-              <span>Evaluation✅️</span>
-              <span>AI Research Basics✅️</span>
-            </div>
+            <span class="research-label">OUC · 3D Vision / Multimodal AR System</span>
+            <h3>Prof. Ziyue Zhang: UNIFI-AR Multimodal AI-Fused Augmented Reality Display System</h3>
           </div>
-        </article>
-      </div>
-    </div>
-  </details>
-
-  <details class="research-card">
-    <summary>
-      <img class="research-logo" src="/images/homepage/pku-logo.png" alt="Peking University logo" loading="lazy">
-      <div>
-        <span class="research-label">PKU · OpenDCAI / AgentFlow</span>
-        <h3>Wentao Zhang Group: OpenDCAI, AgentFlow, and Multimodal Deep Search</h3>
-      </div>
-      <span class="research-period">2025.10 - Present</span>
-    </summary>
-    <div class="research-body">
-      <div class="detail-timeline">
-        <article class="detail-step">
-          <time>2025.10.24 - 2025.10.25</time>
+          <span class="research-period">2025.10 - 2026.03</span>
+        </summary>
+        <div class="research-body">
+          <div class="detail-timeline">
+            <article class="detail-step">
+              <time>2025.10 - 2026.03</time>
+              <div>
+                <h4>Development of Immersive Guided Tour System for Apple Vision Pro</h4>
+                <p>Participated as a core member in the R&D of the UNIFI-AR multimodal AI-fused augmented reality display system. Built an end-to-end immersive guided tour prototype based on Apple Vision Pro and Unity, focusing on multimodal content presentation and natural interaction experiences in spatial computing scenarios.</p>
+                <div class="gain-tags">
+                  <span>Apple Vision Pro✅️</span>
+                  <span>Unity✅️</span>
+                  <span>AR System Development✅️</span>
+                  <span>Spatial Computing⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Architecture</time>
+              <div>
+                <h4>Designing "Timeline + FSM" Multimodal Synchronization Architecture</h4>
+                <p>Integrated DeepSeek and TTS for automated generation of display content, and designed a "Timeline + Finite State Machine (FSM)" control architecture. Using voice as the main axis, it precisely aligned text, visual highlights, animation effects, and interaction feedback, enhancing the consistency and controllability of the multimodal display.</p>
+                <div class="gain-tags">
+                  <span>DeepSeek✅️</span>
+                  <span>TTS✅️</span>
+                  <span>FSM✅️</span>
+                  <span>Multimodal Sync✅️</span>
+                  <span>Automated Content Gen⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Interaction</time>
+              <div>
+                <h4>Implementing Dynamic Visual Effects and Eye/Gesture Interaction</h4>
+                <p>Utilized Shader Graph, Procedural Mesh, and Unity XR Hands to implement dynamic highlighting, parametric wireframes, and collaborative "eye-tracking + gesture" holographic interaction logic, allowing users to browse, focus, and interact more naturally in spatial scenarios.</p>
+                <div class="gain-tags">
+                  <span>Shader Graph✅️</span>
+                  <span>Procedural Mesh✅️</span>
+                  <span>XR Hands✅️</span>
+                  <span>Eye-Tracking Interaction✅️</span>
+                  <span>Gesture Interaction✅️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Evaluation</time>
+              <div>
+                <h4>Delivering High-Fidelity Prototype and User Experience Evaluation</h4>
+                <p>High-quality delivery of an immersive guided tour prototype, evaluating user experience, task load, and immersion via UEQ and NASA-TLX scales. The project accumulated a highly decoupled modular architecture, providing a reusable foundation for future adaptations to multiple artifacts and scenarios.</p>
+                <div class="gain-tags">
+                  <span>High-Fidelity Prototype✅️</span>
+                  <span>UEQ✅️</span>
+                  <span>NASA-TLX✅️</span>
+                  <span>Modular Architecture✅️</span>
+                  <span>Cross-Scenario Reuse⬆️</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </details>
+      <details class="research-card">
+        <summary>
+          <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" loading="lazy" />
           <div>
-            <h4>Joined the OpenDCAI / AgentFlow research track</h4>
-            <p>After joining Wentao Zhang's group at Peking University, my focus shifted from early reproduction practice to Data-Centric AI, multimodal agents, Deep Search, and benchmark construction, exposing me to more complete research problem cycles.</p>
-            <div class="gain-tags">
-              <span>OpenDCAI✅️</span>
-              <span>DCAI⬆️</span>
-              <span>DeepResearch✅️</span>
-              <span>Tool Use⬆️</span>
-            </div>
+            <span class="research-label">OUC · Computer Network / System Engineering</span>
+            <h3>Computer Network Lab: Underlying Development and Visual Analysis of TCP Protocol Stack Based on Simulation Platform</h3>
           </div>
-        </article>
-        <article class="detail-step">
-          <time>2025.11.01 - 2025.11.23</time>
+          <span class="research-period">2025.11 - 2026.01</span>
+        </summary>
+        <div class="research-body">
+          <div class="detail-timeline">
+            <article class="detail-step">
+              <time>2025.11 - 2026.01</time>
+              <div>
+                <h4>Independently Building Core Architecture of TCP Protocol Stack</h4>
+                <p>Conducted project practice focusing on the underlying implementation of the TCP protocol stack and reliable communication mechanisms. Independently built a complete protocol stack using Java based on a network simulation platform, implementing connection management, sliding windows, congestion control, and complete state machine logic.</p>
+                <div class="gain-tags">
+                  <span>Java✅️</span>
+                  <span>TCP✅️</span>
+                  <span>Connection Management✅️</span>
+                  <span>Sliding Window✅️</span>
+                  <span>Congestion Control✅️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Debugging</time>
+              <div>
+                <h4>Locating Protocol State Issues via Visual Logs</h4>
+                <p>Utilized visual log tools to track TCP state transitions and data packet flows, locating logical issues caused by data retransmission, window updates, and state machine boundary conditions, and debugging/fixing issues for complex anomaly scenarios.</p>
+                <div class="gain-tags">
+                  <span>Log Visualization✅️</span>
+                  <span>State Machine Debug✅️</span>
+                  <span>Retransmission Mechanism✅️</span>
+                  <span>Anomaly Localization✅️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Validation</time>
+              <div>
+                <h4>Validating System Robustness in Complex Network Anomaly Scenarios</h4>
+                <p>Tested the protocol stack's performance in complex anomalous network environments such as packet loss and out-of-order delivery. Validated the stability and reliable transmission capabilities of the communication architecture, ultimately yielding underlying protocol source code and an analysis report, which strengthened understanding of underlying computer network mechanisms.</p>
+                <div class="gain-tags">
+                  <span>Packet Loss Scenarios✅️</span>
+                  <span>Out-of-Order Scenarios✅️</span>
+                  <span>Reliable Transmission✅️</span>
+                  <span>System Robustness✅️</span>
+                  <span>Analysis Report✅️</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </details>
+      <details class="research-card">
+        <summary>
+          <img class="research-logo" src="/images/homepage/buaa-logo.png" alt="Beihang University Logo" loading="lazy" />
           <div>
-            <h4>Learned real research workflow and integrated VLMEvalKit</h4>
-            <p>I entered the MM-DeepSearch / DCAI collaboration workflow with shared documents, remote servers, data directories, and SSH-based development. I then integrated a new benchmark into VLMEvalKit, covering data conversion, image encoding, dataset registration, evaluation logic, and LLM-as-Judge configuration, and summarized the process for reuse within the group.</p>
-            <div class="gain-tags">
-              <span>SSH✅️</span>
-              <span>Remote Development✅️</span>
-              <span>VLMEvalKit✅️</span>
-              <span>Benchmark Integration✅️</span>
-              <span>Group Sharing✅️</span>
-            </div>
+            <span class="research-label">BUAA · Multimodal LLM / Agent Memory</span>
+            <h3>Prof. Rong Yin: Multimodal LLM Fine-Tuning and Agent Memory Research & Reproduction</h3>
           </div>
-        </article>
-        <article class="detail-step">
-          <time>2025.12</time>
+          <span class="research-period">2026.04 - 2026.05</span>
+        </summary>
+        <div class="research-body">
+          <div class="detail-timeline">
+            <article class="detail-step">
+              <time>2026.04 - 2026.05</time>
+              <div>
+                <h4>Entering the Direction of Multimodal LLMs and Agent Memory</h4>
+                <p>Participated in a research internship at the Department of Security Engineering, School of Cyberspace Security, Beihang University. Conducted literature reviews, method reproductions, and experimental workflow organization surrounding Multimodal LLM fine-tuning and Agent Memory, supplementing experience in training and fine-tuning Large Language Models.</p>
+                <div class="gain-tags">
+                  <span>Multimodal LLM✅️</span>
+                  <span>Agent Memory✅️</span>
+                  <span>Paper Research✅️</span>
+                  <span>Method Reproduction⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Research</time>
+              <div>
+                <h4>Reviewing Multimodal Model Fine-Tuning and Memory Mechanisms</h4>
+                <p>Focused on researching multimodal model training, instruction fine-tuning, agent memory mechanisms, and context management methods in long-term interaction scenarios. Gained an understanding of the potential applications of multimodal models in security, agents, and complex task execution scenarios.</p>
+                <div class="gain-tags">
+                  <span>Model Fine-Tuning✅️</span>
+                  <span>Instruction Learning⬆️</span>
+                  <span>Long-Term Memory⬆️</span>
+                  <span>Security Applications⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Skill Enhancement</time>
+              <div>
+                <h4>Supplementing Engineering Experience in LLM Post-Training and Agents</h4>
+                <p>Further familiarized with the foundational processes of LLM training, fine-tuning, and agent systems through literature reading, code reproduction, and experimental workflow sorting. This laid the foundation for subsequent research related to LLM security, multimodal reasoning, and Agent systems.</p>
+                <div class="gain-tags">
+                  <span>LLM Post-Training⬆️</span>
+                  <span>Workflow Organization✅️</span>
+                  <span>Code Reproduction✅️</span>
+                  <span>Agent System Understanding⬆️</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </details>
+      <details class="research-card">
+        <summary>
+          <img class="research-logo" src="/images/homepage/ouc-logo.png" alt="Personal Project Logo" loading="lazy" />
           <div>
-            <h4>Built standards for high-quality multimodal benchmarks</h4>
-            <p>During BrowseComp-V3 / MM-DeepResearch data production, I learned that strong benchmark samples require indispensable visual clues, publicly searchable textual evidence, multi-hop difficulty, and strict consistency among sub_goals, key_info, answer, and trajectory. I applied these standards to Culture-domain conversion, evidence-chain checking, and multi-category sample validation.</p>
-            <div class="gain-tags">
-              <span>BrowseComp-V3✅️</span>
-              <span>Evidence Chain✅️</span>
-              <span>TextSearch✅️</span>
-              <span>WebVisit✅️</span>
-              <span>ReverseImageSearch✅️</span>
-              <span>Culture Data✅️</span>
-            </div>
+            <span class="research-label">Independent Project · LLM Engineering</span>
+            <h3>MiniMind Reproduction and LLM Engineering Practice</h3>
           </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.01 - 2026.02</time>
-          <div>
-            <h4>Moved from dataset delivery to automated QA and analysis</h4>
-            <p>I helped deliver Culture and Science & Tech subsets by checking JSON-image consistency, answer alignment, ability labels, metadata, and trajectories. I also participated in web-side model testing and Human Evaluation, then wrote JSON checking scripts for URLs, timestamps, tool calls, step continuity, and file consistency, moving from manual inspection toward automated quality control and experimental analysis.</p>
-            <div class="gain-tags">
-              <span>JSON Structuring✅️</span>
-              <span>Science Data Alignment✅️</span>
-              <span>Web Testing✅️</span>
-              <span>Human Evaluation✅️</span>
-              <span>check.py✅️</span>
-              <span>Hop/Score Analysis⬆️</span>
-              <span>Error Attribution⬆️</span>
-            </div>
+          <span class="research-period">Ongoing</span>
+        </summary>
+        <div class="research-body">
+          <div class="detail-timeline">
+            <article class="detail-step">
+              <time>Reproduction</time>
+              <div>
+                <h4>Reproducing Lightweight LLM System from 0 to 1</h4>
+                <p>Independently reproduced the MiniMind system. Understood the basic engineering pipeline of Large Language Models by going through components such as tokenizers, model architecture, training data organization, training workflows, inference calls, and evaluation analysis, bridging the gap from algorithmic principles to code implementation.</p>
+                <div class="gain-tags">
+                  <span>MiniMind✅️</span>
+                  <span>LLM Architecture✅️</span>
+                  <span>Training Process✅️</span>
+                  <span>Inference Process✅️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Practice</time>
+              <div>
+                <h4>Combining AI Toolchains to Enhance Prototype Development</h4>
+                <p>Combined AI programming tools during the reproduction process for code comprehension, module breakdown, bug localization, and experimental iterations. Gradually developed the ability to utilize toolchains to assist in model reproduction, system debugging, and engineering implementation.</p>
+                <div class="gain-tags">
+                  <span>AI Toolchains✅️</span>
+                  <span>Code Debugging✅️</span>
+                  <span>Engineering Iteration✅️</span>
+                  <span>Prototype Development⬆️</span>
+                </div>
+              </div>
+            </article>
+            <article class="detail-step">
+              <time>Accumulation</time>
+              <div>
+                <h4>Establishing Understanding of LLM Mechanisms and Post-Training Paradigms</h4>
+                <p>Through MiniMind reproduction and related literature study, grasped the foundational mechanisms of LLM training, fine-tuning, and alignment. Established a preliminary understanding of post-training paradigms such as SFT, RL, PPO, DPO, and GRPO, providing a basis for future research in Multimodal LLMs and Agent directions.</p>
+                <div class="gain-tags">
+                  <span>SFT✅️</span>
+                  <span>RLHF⬆️</span>
+                  <span>PPO / DPO / GRPO⬆️</span>
+                  <span>Post-Training Paradigms⬆️</span>
+                  <span>LLM Engineering Foundation✅️</span>
+                </div>
+              </div>
+            </article>
           </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.03 - 2026.05</time>
-          <div>
-            <h4>Extended toward data synthesis and agent post-training</h4>
-            <p>After March, I expanded from evaluation data to trainable data synthesis, working on Qwen2.5-VL LoRA SFT configs, H20 cluster and GPU container setup, image-driven multi-hop QA synthesis, Wikidata entity-relation extraction, model error taxonomy, and VDR-8B process evaluation. This helped me connect benchmark design with downstream agent post-training.</p>
-            <div class="gain-tags">
-              <span>Qwen2.5-VL SFT⬆️</span>
-              <span>LoRA⬆️</span>
-              <span>Docker✅️</span>
-              <span>GPU Container✅️</span>
-              <span>API Debugging✅️</span>
-              <span>seed380✅️</span>
-              <span>Wikidata✅️</span>
-              <span>VDR Process Evaluation⬆️</span>
-              <span>Agent Post-training⬆️</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </details>
-
-  <details class="research-card">
-    <summary>
-      <img class="research-logo" src="/images/homepage/tsinghua-logo.png" alt="Tsinghua University logo" loading="lazy">
-      <div>
-        <span class="research-label">Tsinghua · Industrial AI</span>
-        <h3>Tsinghua TLLM Project Group: Industrial LLMs, Wafer Defect Detection, and Continual Learning</h3>
-      </div>
-      <span class="research-period">2026.01 - 2026.03</span>
-    </summary>
-    <div class="research-body">
-      <div class="detail-timeline">
-        <article class="detail-step">
-          <time>2026.01.29 - 2026.02.02</time>
-          <div>
-            <h4>Expanded into industrial AI and wafer defect detection</h4>
-            <p>Through the Tsinghua TIIM Lab / industrial AI collaboration, I moved into industrial LLMs, wafer defect detection, and industrial reliability, extending my multimodal and data-centric experience to manufacturing scenarios.</p>
-            <div class="gain-tags">
-              <span>Industrial AI✅️</span>
-              <span>Attention✅️</span>
-              <span>Gating✅️</span>
-              <span>Wafer Map✅️</span>
-              <span>MixedWM38⬆️</span>
-            </div>
-          </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.02.04 - 2026.02.13</time>
-          <div>
-            <h4>Ran fault diagnosis experiments with result scrutiny</h4>
-            <p>In CWRU fault diagnosis experiments, I noticed suspiciously high accuracy and treated it as a potential setup issue rather than accepting it directly. I compared DMGD and AdamW logs and prepared a MixedWM38 presentation, strengthening my sensitivity to data adaptation and result credibility.</p>
-            <div class="gain-tags">
-              <span>Training Debugging✅️</span>
-              <span>CWRU✅️</span>
-              <span>AdamW✅️</span>
-              <span>DMGD✅️</span>
-              <span>Training Log Analysis✅️</span>
-            </div>
-          </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.02.23 - 2026.03.11</time>
-          <div>
-            <h4>Adapted Nested Learning across industrial datasets</h4>
-            <p>After surveying continual and class-incremental learning, I adapted Nested Learning to wafer datasets by modifying dataset registration, interfaces, training, and evaluation scripts. I then migrated the workflow to the Paderborn bearing fault dataset, covering preprocessing, token construction, checkpoints, metrics, and runnable documentation.</p>
-            <div class="gain-tags">
-              <span>Continual Learning✅️</span>
-              <span>Class-Incremental Learning✅️</span>
-              <span>Nested Learning✅️</span>
-              <span>GPU Memory Debugging✅️</span>
-              <span>Paderborn✅️</span>
-              <span>run.md✅️</span>
-            </div>
-          </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.03.11 - late 2026.03</time>
-          <div>
-            <h4>Completed the track with reproduction support and scope awareness</h4>
-            <p>Near the end of this track, I supported remote reproduction by clarifying scripts, paths, and training usage, and also encountered project proposal and defense materials. This experience improved my sense of research collaboration, task boundaries, and delivery rhythm.</p>
-            <div class="gain-tags">
-              <span>Remote Reproduction⬆️</span>
-              <span>Project Materials✅️</span>
-              <span>Task Boundary✅️</span>
-              <span>Knowledge Distillation✅️</span>
-              <span>Track Completion✅️</span>
-              <span>Direction Transition✅️</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </details>
-
-  <details class="research-card">
-    <summary>
-      <img class="research-logo" src="/images/homepage/hitsz-logo.png" alt="Harbin Institute of Technology, Shenzhen logo" loading="lazy">
-      <div>
-        <span class="research-label">HITSZ · Physics Video Generation</span>
-        <h3>Yangyang Xu: Physics Video Generation, MotionRAG, and Physics Alignment</h3>
-      </div>
-      <span class="research-period">2026.03 - 2026.05</span>
-    </summary>
-    <div class="research-body">
-      <div class="detail-timeline">
-        <article class="detail-step">
-          <time>2026.03.13 - 2026.03.20</time>
-          <div>
-            <h4>Entered visual generation and physics consistency</h4>
-            <p>Under Yangyang Xu's guidance, I started studying image-to-video, text-to-video, Motion RAG, and physics consistency, while consolidating foundations in diffusion models, Stable Diffusion, DiT, and Flow Matching, then expanding to video-generation evaluation, physical feedback, and test-time scaling.</p>
-            <div class="gain-tags">
-              <span>Video Generation✅️</span>
-              <span>Diffusion✅️</span>
-              <span>Stable Diffusion✅️</span>
-              <span>DiT⬆️</span>
-              <span>Physics Consistency⬆️</span>
-            </div>
-          </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.03.23 - 2026.04.09</time>
-          <div>
-            <h4>Analyzed retrieval-augmented video generation</h4>
-            <p>After MotionRAG became the main direction, I studied what should be retrieved, how motion representations are encoded, and how retrieved priors can be injected into video-generation backbones. I organized staged reports to move from paper reading toward clear research-question formulation.</p>
-            <div class="gain-tags">
-              <span>MotionRAG✅️</span>
-              <span>DiT-Mem✅️</span>
-              <span>LanceDB✅️</span>
-              <span>DINO✅️</span>
-              <span>VideoMAE✅️</span>
-              <span>Research Presentation✅️</span>
-            </div>
-          </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.04.12 - 2026.04.18</time>
-          <div>
-            <h4>Ran a small MotionRAG pipeline and analyzed gaps</h4>
-            <p>On a remote server, I prepared the environment, weights, annotations, and a small OpenVid subset, then ran an initial MotionRAG generation pipeline. I analyzed gaps from the paper in terms of retrieval quality, experimental setting differences, base-model limits, and motion-prior coverage, comparing action_mae and DINO signals where applicable.</p>
-            <div class="gain-tags">
-              <span>SSH✅️</span>
-              <span>Proxy Debugging✅️</span>
-              <span>Pipeline Reproduction✅️</span>
-              <span>action_mae✅️</span>
-              <span>DINO✅️</span>
-              <span>Experiment Analysis✅️</span>
-            </div>
-          </div>
-        </article>
-        <article class="detail-step">
-          <time>2026.04.18 - 2026.05</time>
-          <div>
-            <h4>Shifted toward physics-consistency evaluation and method design</h4>
-            <p>Based on reproduction analysis, I shifted from visual quality to whether generated videos obey constraints on motion, contact, and deformation. After surveying PhysInOne, latent world-model rewards, and inference-time physics alignment, I formed the view that physics-consistent generation requires retrieval libraries or training data organized around motion, contact, force, and state changes.</p>
-            <div class="gain-tags">
-              <span>Physics Alignment⬆️</span>
-              <span>World Model Reward⬆️</span>
-              <span>PhysInOne⬆️</span>
-              <span>Physical Dataset Survey✅️</span>
-              <span>Limitation Analysis✅️</span>
-              <span>Improvement Ideas⬆️</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </details>
+        </div>
+      </details>
     </div>
   </section>
 </div>

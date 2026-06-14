@@ -1,11 +1,10 @@
 [site]
-title = "Yanzhe Shan"
-description = "Undergraduate student at Ocean University of China, researching Data-Centric AI and AI4Science."
-favicon = "/favicon.svg"
-last_updated = "May 19, 2026"
+title = "Yihang Zhai"
+description = "Undergraduate student at Ocean University of China, researching Multimodal AI and AI4Science."
+last_updated = "June 15, 2026"
 
 [author]
-name = "Yanzhe Shan"
+name = "Yihang Zhai"
 title = "Junior Undergraduate (Class of 2023)"
 institution = "Ocean University of China"
 avatar = "/bio.png"
@@ -13,16 +12,16 @@ avatar = "/bio.png"
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "dyz8327@stu.ouc.edu.cn"
+email = "zyh9097@stu.ouc.edu.cn"
 location = "Qingdao, China"
 location_url = "https://maps.google.com/?q=Ocean+University+of+China"
 location_details = [
   "School of Computer Science and Technology,",
   "Ocean University of China, Qingdao, China"
 ]
-github = "https://github.com/Venusss1"
-phone = "19963927952"
-wechat = "19963927952"
+github = "https://github.com/Locusclaer"
+phone = "13083671489"
+wechat = "13083671489"
 
 [features]
 # Show a like button on the about page
