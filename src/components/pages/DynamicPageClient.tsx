@@ -1,0 +1,51 @@
+'use client';
+
+import PublicationsList from '@/components/publications/PublicationsList';
+import TextPage from '@/components/pages/TextPage';
+import CardPage from '@/components/pages/CardPage';
+import { Publication } from '@/types/publication';
+import {
+  PublicationPageConfig,
+  TextPageConfig,
+  CardPageConfig,
+} from '@/types/page';
+import { useLocaleStore } from '@/lib/stores/localeStore';
+
+export type DynamicPageLocaleData =
+  | { type: 'publication'; config: PublicationPageConfig; publications: Publication[] }
+  | { type: 'text'; config: TextPageConfig; content: string }
+  | { type: 'card'; config: CardPageConfig };
+
+interface DynamicPageClientProps {
+  dataByLocale: Record<string, DynamicPageLocaleData>;
+  defaultLocale: string;
+}
+
+export default function DynamicPageClient({ dataByLocale, defaultLocale }: DynamicPageClientProps) {
+  const locale = useLocaleStore((state) => state.locale);
+  const fallback = dataByLocale[defaultLocale] || Object.values(dataByLocale)[0];
+  const pageData = dataByLocale[locale] || fallback;
+
+  if (!pageData) {
+    return null;
+  }
+
+  return (
+    <div className="acad-dynamic-shell max-w-[1100px] mx-auto px-2 sm:px-3 lg:px-2 py-4">
+      <div className={`acad-dynamic-card ${pageData.type === 'text'
+        ? ''
+        : 'bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 sm:p-8 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50'
+        }`}>
+        {pageData.type === 'publication' && (
+          <PublicationsList config={pageData.config} publications={pageData.publications} />
+        )}
+        {pageData.type === 'text' && (
+          <TextPage config={pageData.config} content={pageData.content} />
+        )}
+        {pageData.type === 'card' && (
+          <CardPage config={pageData.config} />
+        )}
+      </div>
+    </div>
+  );
+}

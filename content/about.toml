@@ -1,0 +1,9 @@
+type = "about"
+title = "About"
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = ""
+

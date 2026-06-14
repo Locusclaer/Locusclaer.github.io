@@ -1,0 +1,35 @@
+[site]
+title = "单衍喆"
+description = "中国海洋大学本科生，研究方向为 Data-Centric AI 和 AI4Science。"
+last_updated = "2026年5月19日"
+
+[author]
+name = "单衍喆"
+title = "2023级 大三本科生"
+institution = "中国海洋大学"
+
+[social]
+location = "青岛，中国"
+location_details = [
+  "中国海洋大学，",
+  "计算机科学与技术学院，青岛，中国"
+]
+
+[[navigation]]
+title = "基本情况"
+type = "page"
+target = "about"
+href = "/"
+
+# 临时隐藏「科研经历」页面：取消下面注释即可恢复
+# [[navigation]]
+# title = "科研经历"
+# type = "page"
+# target = "research"
+# href = "/research"
+
+[[navigation]]
+title = "综合发展"
+type = "page"
+target = "development"
+href = "/development"
