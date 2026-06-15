@@ -58,7 +58,7 @@
         <div class="pub-card__thumb"><img src="/images/homepage/Network_frame.png" alt="Network Framework of Self-Supervised Ultrasound Image Denoising Method Guided by Prior Information" /></div>
         <div class="pub-card__body">
           <div class="pub-card__meta">
-            <span class="pub-card__authors">Core Contributor <span class="pub-card__more-authors">+20</span></span>
+            <span class="pub-card__authors">Core Contributor</span>
           </div>
           <p class="pub-card__abstract">A self-supervised medical image enhancement scheme integrating pre-trained CLIP text prompt learning and Mamba state space modeling. Constrained by a multi-dimensional joint loss, it is specifically designed to overcome the challenge of detail loss in ultrasound images under medium-to-high noise conditions.</p>
         </div>
@@ -66,56 +66,93 @@
     </div>
   </section>
 
-  <section class="home-section" id="internships">
-    <h2 class="home-section__title">💻 Research & Project Experience</h2>
-    <div class="intern-list">
-      <article class="intern-entry">
-        <div class="intern-entry__logo"><img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" /></div>
-        <div class="intern-entry__content">
-          <div class="intern-entry__title">Ocean University of China · Computational Biology Lab</div>
-          <div class="intern-entry__meta">Research Intern · Supervised by Prof. Shugang Zhang</div>
-          <p class="intern-entry__desc">Conducted independent research on automated segmentation of echocardiography images, focusing on solving pain points such as speckle noise interference and blurred boundaries of complex anatomical structures. Independently built a multi-GPU end-to-end deep learning pipeline, and innovatively designed a Boundary Prediction Branch based on DDPM and Spatial Attention mechanisms, significantly improving segmentation accuracy in low-contrast regions through explicit feature guidance. Fully responsible for algorithm design, core experiments, and model evaluation. The model achieved excellent generalization performance on both the CAMUS public dataset and real clinical data. Currently, the related work is being prepared for submission to MICCAI as the first author.</p>
-        </div>
-        <div class="intern-entry__date">2025.11 - Present</div>
-      </article>
-      <article class="intern-entry">
-        <div class="intern-entry__logo"><img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" /></div>
-        <div class="intern-entry__content">
-          <div class="intern-entry__title">Ocean University of China · Computer Vision Lab</div>
-          <div class="intern-entry__meta">Research Intern · Computer Vision Lab</div>
-          <p class="intern-entry__desc">Conducted research on self-supervised ultrasound image denoising, focusing on overcoming the challenge of detail preservation under medium-to-high noise conditions. Innovatively proposed a denoising architecture integrating CLIP prior guidance and Mamba state space modeling. Led the design of a prompt text learning module based on image-text constraints, and completed the construction of the core enhancement network (U-Net + Mamba) alongside the tuning of multi-dimensional joint loss functions. The model achieved an average PSNR improvement of 1.8dB and SSIM improvement of 2.7% on the CAMUS and BUSI datasets. The core methodology has been submitted and accepted for a National Invention Patent as the first inventor.</p>
-        </div>
-        <div class="intern-entry__date">2025.02 - 2025.10</div>
-      </article>
-      <article class="intern-entry">
-        <div class="intern-entry__logo"><img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" /></div>
-        <div class="intern-entry__content">
-          <div class="intern-entry__title">Ocean University of China · 3D Vision Group</div>
-          <div class="intern-entry__meta">Research Intern · Supervised by Prof. Ziyue Zhang</div>
-          <p class="intern-entry__desc">Developed an end-to-end immersive guided tour system, focusing on multimodal fusion presentation and spatial computing interaction on the Apple Vision Pro platform. Innovatively designed a "Timeline + Finite State Machine (FSM)" architecture to achieve precise multimodal alignment, integrated the DeepSeek LLM for automated content generation, and constructed a collaborative "eye-tracking + gesture" interaction logic alongside dynamic visual effects. Delivered a high-fidelity guided tour prototype. Cross-validated via UEQ and NASA-TLX scales, it significantly reduced user cognitive load and enhanced the immersive experience. The highly decoupled modular architecture demonstrates strong potential for commercial reuse across diverse scenarios.</p>
-        </div>
-        <div class="intern-entry__date">2025.10 - 2026.04</div>
-      </article>
-      <article class="intern-entry">
-        <div class="intern-entry__logo"><img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" /></div>
-        <div class="intern-entry__content">
-          <div class="intern-entry__title">Ocean University of China · Computer Network Lab</div>
-          <div class="intern-entry__meta">Research Intern · Supervised by Prof. Feng Hong</div>
-          <p class="intern-entry__desc">Independently researched and developed the underlying architecture of a TCP protocol stack, focusing on overcoming high-reliability communication challenges in complex network anomaly scenarios. Independently built a complete protocol stack using Java based on a network simulation platform, autonomously implementing core state machine logic such as connection management, sliding windows, and congestion control. Successfully resolved logic deadlocks caused by data retransmission and window updates through visual log tracking. The system exhibited extreme robustness under complex network anomalies like packet loss and out-of-order delivery, ultimately yielding robust underlying source code and an in-depth analysis report that fully verified the stability of the communication architecture.</p>
-        </div>
-        <div class="intern-entry__date">2025.10 - 2026.01</div>
-      </article>
-      <article class="intern-entry">
-        <div class="intern-entry__logo"><img src="/images/homepage/buaa-logo.png" alt="Beihang University Logo" /></div>
-        <div class="intern-entry__content">
-          <div class="intern-entry__title">Beihang University · Department of Security Engineering, School of Cyberspace Security</div>
-          <div class="intern-entry__meta">Research Intern · Supervised by Prof. Rong Yin</div>
-          <p class="intern-entry__desc">Participated in the research and reproduction of multimodal LLM fine-tuning and Agent Memory directions, gaining supplementary experience in training and fine-tuning Large Language Models.</p>
-        </div>
-        <div class="intern-entry__date">2026.04 - 2026.05</div>
-      </article>
-    </div>
-  </section>
+<section class="home-section" id="research">
+  <h2 class="home-section__title">🔬 Research Experience</h2>
+
+  <div class="intern-list">
+    <article class="intern-entry">
+      <div class="intern-entry__logo">
+        <img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" />
+      </div>
+      <div class="intern-entry__content">
+        <div class="intern-entry__title">Ocean University of China · Computational Biology Lab</div>
+        <div class="intern-entry__meta">Research Intern · Supervised by Prof. Shugang Zhang</div>
+        <p class="intern-entry__desc">
+          Conducted independent research on automated cardiac ultrasound image segmentation, focusing on challenges such as speckle noise interference and ambiguous anatomical boundaries.
+          Built a multi-GPU end-to-end deep learning pipeline and designed a boundary prediction branch based on DDPM and spatial attention mechanisms, using explicit boundary guidance to improve segmentation accuracy in low-contrast regions.
+          Took full responsibility for algorithm design, core experiments, and model evaluation. The proposed method demonstrated strong generalization performance on both the CAMUS public dataset and real clinical data, and the work is currently planned for submission to MICCAI as a first-author paper.
+        </p>
+      </div>
+      <div class="intern-entry__date">Nov. 2025 - Present</div>
+    </article>
+    <article class="intern-entry">
+      <div class="intern-entry__logo">
+        <img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" />
+      </div>
+      <div class="intern-entry__content">
+        <div class="intern-entry__title">Ocean University of China · Computer Vision Lab</div>
+        <div class="intern-entry__meta">Research Intern · Computer Vision Lab</div>
+        <p class="intern-entry__desc">
+          Conducted research on self-supervised ultrasound image denoising, with a focus on preserving fine structural details under medium-to-high noise conditions.
+          Proposed a denoising framework that integrates CLIP prior guidance and Mamba-based state space modeling. Led the design of a prompt learning module based on image-text constraints, and implemented the core enhancement network with U-Net and Mamba.
+          Optimized a multi-dimensional joint loss function, achieving an average improvement of 1.8 dB in PSNR and 2.7% in SSIM on the CAMUS and BUSI datasets. The core method has been filed as a national invention patent, with myself as the first inventor.
+        </p>
+      </div>
+      <div class="intern-entry__date">Feb. 2025 - Oct. 2025</div>
+    </article>
+    <article class="intern-entry">
+      <div class="intern-entry__logo">
+        <img src="/images/homepage/buaa-logo.png" alt="Beihang University Logo" />
+      </div>
+      <div class="intern-entry__content">
+        <div class="intern-entry__title">Beihang University · Department of Security Engineering, School of Cyber Science and Technology</div>
+        <div class="intern-entry__meta">Research Intern · Supervised by Prof. Rong Yin</div>
+        <p class="intern-entry__desc">
+          Participated in literature review and reproduction work related to multimodal LLM fine-tuning and Agent Memory, gaining hands-on experience in large language model training, fine-tuning, and memory mechanisms for intelligent agents.
+        </p>
+      </div>
+      <div class="intern-entry__date">Apr. 2026 - May 2026</div>
+    </article>
+  </div>
+</section>
+
+
+<section class="home-section" id="projects">
+  <h2 class="home-section__title">💻 Project Experience</h2>
+
+  <div class="intern-list">
+    <article class="intern-entry">
+      <div class="intern-entry__logo">
+        <img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" />
+      </div>
+      <div class="intern-entry__content">
+        <div class="intern-entry__title">Ocean University of China · 3D Vision Research Group</div>
+        <div class="intern-entry__meta">Project Developer · Supervised by Prof. Ziyue Zhang</div>
+        <p class="intern-entry__desc">
+          Developed an end-to-end immersive guided tour system, focusing on multimodal content presentation and spatial computing interaction on Apple Vision Pro.
+          Designed a “timeline + finite state machine” architecture to achieve precise multimodal synchronization, integrated DeepSeek for automated content generation, and implemented collaborative interaction logic based on eye tracking and hand gestures.
+          Delivered a high-fidelity prototype that significantly improved immersion and user cognitive efficiency through questionnaire-based cross-validation. The resulting highly decoupled and modular architecture also shows strong potential for commercial reuse.
+        </p>
+      </div>
+      <div class="intern-entry__date">Oct. 2025 - Apr. 2026</div>
+    </article>
+    <article class="intern-entry">
+      <div class="intern-entry__logo">
+        <img src="/images/homepage/ouc-logo.png" alt="Ocean University of China Logo" />
+      </div>
+      <div class="intern-entry__content">
+        <div class="intern-entry__title">Ocean University of China · Computer Networks Lab</div>
+        <div class="intern-entry__meta">Course Project · Supervised by Prof. Feng Hong</div>
+        <p class="intern-entry__desc">
+          Independently developed a low-level TCP protocol stack, focusing on reliable communication under complex network anomaly scenarios.
+          Built a complete protocol stack in Java on a simulation platform, implementing core state-machine logic such as connection management, sliding window control, retransmission, and congestion control.
+          Used visualized log tracing to identify and resolve logical deadlocks caused by retransmission and window update issues. The system demonstrated strong robustness under packet loss and out-of-order delivery, resulting in reliable source code and an in-depth technical report.
+        </p>
+      </div>
+      <div class="intern-entry__date">Oct. 2025 - Jan. 2026</div>
+    </article>
+  </div>
+</section>
 
   <section class="home-section competition-section" id="competitions">
     <h2 class="home-section__title">💬 Competition Experience</h2>
